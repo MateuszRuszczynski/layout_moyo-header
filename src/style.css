@@ -4,13 +4,7 @@
 }
 
 html,
-body,
-header,
-nav,
-ul,
-li,
-a,
-img {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,6 +22,7 @@ body {
   justify-content: space-between;
   width: 100%;
   padding: 0 50px;
+  box-sizing: border-box;
 }
 
 .header__logo-link {
@@ -41,6 +36,8 @@ body {
 .nav__list {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav__item {
